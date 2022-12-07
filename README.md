@@ -1,4 +1,4 @@
-### Hi there 👋
+![hilbert](https://user-images.githubusercontent.com/4342684/206110762-258646db-2557-4ace-90ea-8f80c5e503ba.png)
 
 <!--
 **barabo/barabo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
