@@ -1,4 +1,4 @@
-![COLORS](https://user-images.githubusercontent.com/4342684/206111069-1ae0d139-f468-472e-afd0-3c68236b3665.jpeg)
+![image](https://user-images.githubusercontent.com/4342684/206112587-c470620f-6fd6-4473-837a-8fb88a7707ed.png)
 
 
 <!--
