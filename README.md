@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/4342684/206112587-c470620f-6fd6-4473-837a-8fb88a7707ed.png)
+![hilbert-6](https://github.com/barabo/barabo/assets/4342684/a7ae484f-d97f-4fd8-ad79-0c81ecf35439)
 
 
 <!--
