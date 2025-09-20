@@ -1,5 +1,8 @@
+<h6>Hilbert Tiles</h6>
+
 ![hilbert-6](https://github.com/barabo/barabo/assets/4342684/a7ae484f-d97f-4fd8-ad79-0c81ecf35439)
 
+<h6>Hilbert Tiles ASCII</h6>
 
 ```
  __   ___   ___   ___   ___   _____   ___   ___   ___   ___   _____   ___   ___   ___   ___   __
@@ -21,18 +24,20 @@
 
 ```
 
-<details>
- <summary>How many syllables are in a number?</summary>
+<h5>Misc</h5>
 
-This code currently only supports numbers up to 1 undecillian - maybe someday I'll solve it generally.
+<details>
+ <summary><h6>How many syllables are in a number?</h6></summary>
+
+This code currently only supports whole numbers up to 1 undecillian - maybe someday I'll solve it generally.
 
 ```python
 def syllables(n):
     def exp_syllables(power):
         if power > 10:
-            raise ValueError("Too large")
-        # for million, billion, and trillion (power less than 4)
-        # return 2 - all other allowed powers return 3.
+            raise ValueError("1 undecillion and above are not supported!")
+        # Assuming million, billion, and trillion are pronounced with two syllables,
+        # while powers through decillion have three.
         return power < 4 and 2 or 3
     if n == 0:
         return 0
@@ -54,7 +59,6 @@ def syllables(n):
     remainder = n - leftmost * power
     return syllables(leftmost) + exp_syllables(exp) + syllables(remainder)
 ```
-
  
 </details>
 
