@@ -33,12 +33,12 @@ This code currently only supports whole numbers up to 1 undecillian - maybe some
 
 ```python
 def syllables(n):
-    def exp_syllables(power):
-        if power > 10:
+    def exp_syllables(exp):
+        if exp > 10:
             raise ValueError("1 undecillion and above are not supported!")
         # Assuming million, billion, and trillion are pronounced with two syllables,
         # while powers through decillion have three.
-        return power < 4 and 2 or 3
+        return exp < 4 and 2 or 3
     if n == 0:
         return 0
     if n in [1, 2, 3, 4, 5, 6, 8, 9, 10, 12]:
